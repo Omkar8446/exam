@@ -27,5 +27,10 @@ public class Main {
         sum = largest;
 
         System.out.println("The largest number is: " + sum);
+
+	//Newly Added Code
+	int sum1=num1+num2+num3;
+	double avg= sum1/3.0;
+	System.out.println("The Average of the three Numbers is: "+ avg);
     }
 }
